@@ -15,7 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav>
+          <div>GPT whatfa</div>
+        </nav>
+        {children}</body>
     </html>
   )
 }

@@ -1,7 +1,4 @@
 const GptList = () => (
-<nav>
-    <div>GPT whatfa</div>
-</nav>
   <section>
     <h2 className="">
                 免费ChatGPT网站
