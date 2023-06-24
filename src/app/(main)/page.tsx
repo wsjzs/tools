@@ -1,4 +1,4 @@
-import GptList from '@/components/biz/gpt-list.tsx'
+import GptList from '@/components/biz/gpt-list'
 
 export default function Home() {
   return (
