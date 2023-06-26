@@ -16,8 +16,9 @@ export default function RootLayout({
   return (
     <html lang="zh">
       <body className={inter.className}>
-        <nav>
-          <div>GPT whatfa</div>
+        <nav className='p-2 flex'>
+          <div >GPT whatfa</div>
+          <div className='flex-grow text-center'>免费的chatgpt网址列表</div>
         </nav>
         {children}</body>
     </html>
