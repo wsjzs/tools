@@ -15,7 +15,7 @@ jobs:
       #   DATABASE_HOST_NAME: ${{ secrets.DATABASE_HOST_NAME }}
       with:
         host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
+        username: ${{ secrets.USER_NAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
           cd ${{ secrets.SITE_PATH }}
