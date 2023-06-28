@@ -15,7 +15,7 @@ const GptList = () => (
           <li key={item.url} className='w-full'>
             <div className="flex justify-between items-center bg-neutral-50 dark:bg-neutral-800  p-4 rounded-lg">
               <div className='flex items-center'>
-                <div className='relative w-10 h-10 rounded-lg overflow-hidden dark:bg-slate-300 '>
+                <div className='relative w-10 h-10 rounded-lg overflow-hidden dark:bg-slate-100 '>
                   <Image objectFit="contain" layout="fill" src={item.icon} alt={item.title}/>
                 </div>
                 <p className='ml-2 text-base'>{item.title}</p>
