@@ -13,9 +13,11 @@ const GptList = () => (
       {
         list.map(item => (
           <li key={item.url} className='w-full'>
-            <div className="flex justify-between items-center bg-neutral-50 p-4 rounded-lg">
+            <div className="flex justify-between items-center bg-neutral-50 dark:bg-neutral-800  p-4 rounded-lg">
               <div className='flex items-center'>
-                <Image className='rounded-lg' src={item.icon} width={40} height={40} alt={item.title}/>
+                <div className='relative w-10 h-10 rounded-lg overflow-hidden dark:bg-slate-300 '>
+                  <Image objectFit="contain" layout="fill" src={item.icon} alt={item.title}/>
+                </div>
                 <p className='ml-2 text-base'>{item.title}</p>
               </div>
               <Link className='text-base text-sky-600' href={item.url} target='_blank'>点击访问&gt;</Link>
