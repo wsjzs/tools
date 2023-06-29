@@ -30,15 +30,17 @@ const GptList = () => (
       {
         list.map(item => (
           <li key={item.url} className='w-full mt-2'>
-            <div className="flex justify-between items-center bg-neutral-50 dark:bg-neutral-800  p-4 rounded-lg">
-              <div className='flex items-center'>
-                <div className='relative w-10 h-10 rounded-lg overflow-hidden dark:bg-slate-100 '>
-                  <Image objectFit="contain" layout="fill" src={item.icon} alt={item.title}/>
+            <Link href={item.url} target='_blank'>
+              <div className="flex justify-between items-center bg-neutral-50 dark:bg-neutral-800 p-2 rounded-lg">
+                <div className='flex items-center'>
+                  <div className='relative w-10 h-10 rounded-lg overflow-hidden dark:bg-slate-100 '>
+                    <Image objectFit="contain" layout="fill" src={item.icon} alt={item.title}/>
+                  </div>
+                  <p className='ml-2 text-base'>{item.title}</p>
                 </div>
-                <p className='ml-2 text-base'>{item.title}</p>
+                <p className='text-sm text-sky-600'>点击访问&gt;</p>
               </div>
-              <Link className='text-base text-sky-600' href={item.url} target='_blank'>点击访问&gt;</Link>
-            </div>
+            </Link>
           </li>
         ))
       }
@@ -49,20 +51,3 @@ const GptList = () => (
 )
 
 export default GptList
-// /*title*/
-
-// left: 0px;
-// top: 0px;
-// width: 600px;
-// height: 56px;
-// opacity: 1;
-// display: flex;
-
-// /** 文本1 */
-// font-size: 48px;
-// font-weight: 700;
-// letter-spacing: 0px;
-// line-height: 56px;
-// color: rgba(29, 33, 41, 1);
-// text-align: left;
-// vertical-align: top;
