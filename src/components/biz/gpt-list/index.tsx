@@ -38,7 +38,7 @@ const GptList = () => (
                   </div>
                   <p className='ml-2 text-base'>{item.title}</p>
                 </div>
-                <p className='text-sm text-sky-600'>点击访问&gt;</p>
+                <p className='text-xs sm:text-sm text-sky-600'>点击访问&gt;</p>
               </div>
             </Link>
           </li>
