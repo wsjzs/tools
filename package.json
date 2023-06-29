@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build:server":"tsc --project tsconfig.server.json",
-    "build": "next build && tsc --project tsconfig.server.json",
-    "start": "node dist/server.js",
+    "build": "next build",
+    "start":"next start",
+    "start:server": "tsc --project tsconfig.server.json && node dist/server.js",
     "lint": "next lint"
   },
   "dependencies": {
