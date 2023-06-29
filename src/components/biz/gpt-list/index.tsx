@@ -13,6 +13,11 @@ const list = [
     title: '小莓用AI',
   },
   {
+    icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
+    url: 'https://chat.wuguokai.cn',
+    title: 'wuguokai',
+  },
+  {
     icon: 'https://i2.mjj.rip/2023/06/28/2df123d6fd81e29192d0e4ccb94fda25.jpeg',
     url: 'https://chat.scorpii.net/',
     title: 'zchat（免费，靠广告活着）',
