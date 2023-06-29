@@ -21,3 +21,4 @@ jobs:
           cd ${{ secrets.SITE_PATH }}
           git pull
           pnpm build
+          pm2 reload gpt
