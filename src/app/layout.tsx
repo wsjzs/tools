@@ -1,5 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Baidu from '@/components/baidu'
+import Header from './header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,11 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh">
+      <head>
+        <Baidu/>
+      </head>
       <body className={inter.className}>
-        <nav className='p-2 flex items-center justify-center'>
-          <div className='text-2xl' >gpt.whatfa.com</div>
-          <div className='ml-2 text-xs'>免费的chatgpt网址列表</div>
-        </nav>
+        <Header/>
         {children}</body>
     </html>
   )
