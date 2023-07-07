@@ -22,6 +22,11 @@ const list = [
     url: 'http://wea.zw7.lol',
     title: 'TDChat',
   },
+  {
+    icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
+    url: 'https://chat.aicaige.com/',
+    title: 'aicaige',
+  },
 ]
 
 const GptList = () => (
