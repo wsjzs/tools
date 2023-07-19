@@ -4,10 +4,10 @@ module.exports = {
       name: 'gpt',
       script: 'pnpm',
       args: 'start',
-      exec_mode: 'cluster',
-      instances: 1,
       interpreter: 'node',
       interpreter_args: '--experimental-modules',
+      max_memory_restart: '1024M',
+      max_restarts: 3,
     },
   ],
 }
