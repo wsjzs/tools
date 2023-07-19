@@ -15,12 +15,12 @@ const list = [
   {
     icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
     url: 'https://chat.wuguokai.cn',
-    title: 'wuguokai',
+    title: 'wuguokai(需科学上网)',
   },
   {
     icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
     url: 'http://wea.zw7.lol',
-    title: 'TDChat',
+    title: 'TDChat（亲测可用）',
   },
   {
     icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
@@ -31,6 +31,9 @@ const list = [
 
 const GptList = () => (
   <section className='max-w-lg  w-full mx-auto mt-3'>
+    <h2 className='text-center mb-3'>
+      有些站点需科学上网
+    </h2>
     <ul className='w-full'>
       {
         list.map(item => (
