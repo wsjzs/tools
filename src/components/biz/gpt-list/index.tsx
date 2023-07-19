@@ -9,6 +9,11 @@ const list = [
   // },
   {
     icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
+    url: 'https://c.binjie.fun/',
+    title: 'AIchatOS（亲测可用）',
+  },
+  {
+    icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
     url: 'https://ai.usesless.com',
     title: '小莓用AI',
   },
