@@ -9,8 +9,18 @@ const list = [
   // },
   {
     icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
+    url: 'https://free.anzz.top/zh',
+    title: 'Anzz.top（亲测可用）',
+  },
+  {
+    icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
+    url: 'https://l922h.aitianhu.fit/',
+    title: 'aitianhu（亲测可用）',
+  },
+  {
+    icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
     url: 'https://c.binjie.fun/',
-    title: 'AIchatOS（亲测可用）',
+    title: 'AIchatOS',
   },
   {
     icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
