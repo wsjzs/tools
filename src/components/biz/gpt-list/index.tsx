@@ -9,6 +9,11 @@ const list = [
   // },
   {
     icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
+    url: 'https://free.localhost6.com',
+    title: 'localhost6（亲测可用）',
+  },
+  {
+    icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
     url: 'https://free.anzz.top/zh',
     title: 'Anzz.top（亲测可用）',
   },
