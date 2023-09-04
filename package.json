@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build:server":"tsc --project tsconfig.server.json",
+    "build:server": "tsc --project tsconfig.server.json",
     "build": "next build",
-    "start":"next start",
+    "start": "next start",
     "start:server": "tsc --project tsconfig.server.json && node dist/server.js",
     "lint": "next lint"
   },
   "dependencies": {
+    "@jitsu/jitsu-react": "^1.2.1",
     "@types/node": "20.3.1",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
