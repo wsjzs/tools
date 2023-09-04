@@ -2,11 +2,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const list = [
-  // {
-  //   icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
-  //   url: 'https://chat.jinshutuan.com/#/chat/1687100551376',
-  //   title: 'jinshutuan',
-  // },
+  {
+    icon: 'https://ice.frostsky.com/2023/09/04/a2e967cc37aa33c435023975c0b04d4f.png',
+    url: 'https://yiyan.baidu.com/',
+    title: '文心一言（国产可用）',
+  },
   {
     icon: 'https://i2.mjj.rip/2023/06/28/78469fb6eca51e9c794bb02dbc32aa71.png',
     url: 'https://free.localhost6.com',
