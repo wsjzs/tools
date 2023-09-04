@@ -7,6 +7,11 @@ const nextConfig = {
         hostname: 'i2.mjj.rip',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'ice.frostsky.com',
+        port: '',
+      },
     ],
   },
 }
